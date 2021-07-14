@@ -26,3 +26,5 @@ I learned to:
   - Radio Buttons
   - Text Fields
   - Fade out text fields
+
+![Image of Home Page](https://user-images.githubusercontent.com/83929892/125690682-aed6b174-f768-47a8-8972-aab825c6b01f.png)
