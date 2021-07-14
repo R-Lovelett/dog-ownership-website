@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Dog Age Calculator</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="http://students.css.edu/rlovelett/calculatorScript.js" type="text/javascript"></script>
+<link rel="stylesheet" href="http://students.css.edu/rlovelett/DogWebsiteStylesheet.css">
+
+</head>
+
+<body id="ageCalc">
+
+<div id="bodytextCalc">
+<h1>Dog Age Calculator</h1>
+
+<fieldset>
+    <legend>Select Dog Size: </legend>
+    <input type="radio" name="radio1" value="Small" id="radio-1">
+    <label for="radio-1">Small</label>
+    <input type="radio" name="radio1" value="Medium" id="radio-2">
+    <label for="radio-2">Medium</label>
+    <input type="radio" name="radio1" value="Large" id="radio-3">
+    <label for="radio-3">Large</label>
+</fieldset>
+
+<p></p>
+  
+<fieldset>
+	<legend>Enter the age of your dog in years (Round up/down accordingly):</legend>
+	<input id = "value">
+	<button type = "button" id="calculate">Calculate!</button>
+</fieldset>
+
+<div class="toggler">
+	<div id="effect" class="ui-widget-content ui-corner-all">
+		<div id = "result"></div>
+	</div>
+</div>
+
+<p></p>
+<a href = "https://pets.webmd.com/dogs/how-to-calculate-your-dogs-age">Source</a>
+
+<div id="return">
+	<form method="get" action="http://students.css.edu/rlovelett/homepage.html">
+			<button class="button" type="submit">Home</button>
+	</form>
+</div>
+
+</div>
+</body>
+
+</html>

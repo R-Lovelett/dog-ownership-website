@@ -1,0 +1,88 @@
+body {
+
+	color:white;
+	font-family:"Lucida Sans", Times, serif;
+	
+}
+
+a {
+	color:pink;
+}
+
+h1, h2, h3 {
+	font-family:"Cooper Black", Times, serif;
+	color:rgba(193, 224, 255, 1);
+}
+
+fieldset {
+	border-color:rgba(193, 224, 255, 1);
+}
+
+#bodytext {
+	background-color:rgba(27, 38, 49, 0.8);
+	padding:25px;
+	margin-right:100px;
+	margin-left:100px;
+	font-size:140%
+}
+
+#bodytextCalc {
+	background-color:rgba(27, 38, 49, 0.8);
+	padding:25px;
+	padding-bottom:425px;
+	margin-right:100px;
+	margin-left:100px;
+}
+
+#indent {
+	padding-left:50px;
+}
+
+#main {
+	text-align:center;
+}
+
+#home {
+	background-image:url("https://apdt.com/wp-content/themes/apdt/img/APDT-Hero-2.jpg");
+	background-attachment:fixed;
+}
+
+#ageCalc {
+	background-image:url("https://www.rd.com/wp-content/uploads/2017/06/05-dog-breed-Safety-Tips-to-Keep-Your-Dog-in-Top-Shape-This-Summer-508549561-Yevgen-Romanenko.jpg");
+	background-size:cover;
+}
+
+#return {
+	text-align:center;
+}
+
+#calculate {
+	background-color:rgba(193, 224, 255, 1);
+    border:none;
+    color:#1B2631;
+    padding:5px 5px;
+    display:inline-block;
+    font-size:12px;
+    cursor:pointer;
+}
+
+.homeImg {
+	display:block;
+	margin:0 auto;
+	width:50%;
+}
+
+/* Added from assignment 4 - used button and effect stylings from jQueryui.com, with modifications */
+.button {
+	background-color: rgba(193, 224, 255, 1);
+    border: none;
+    color: #1B2631;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+ 
+.toggler { width: 700px; height: 100px; }
+
+#effect { width: 500px; height: 75px; padding: 0.4em; position: relative; }
