@@ -43,12 +43,12 @@ fieldset {
 }
 
 #home {
-	background-image:url("https://apdt.com/wp-content/themes/apdt/img/APDT-Hero-2.jpg");
+	background-image:url("img/home-bg.jpg");
 	background-attachment:fixed;
 }
 
 #ageCalc {
-	background-image:url("https://www.rd.com/wp-content/uploads/2017/06/05-dog-breed-Safety-Tips-to-Keep-Your-Dog-in-Top-Shape-This-Summer-508549561-Yevgen-Romanenko.jpg");
+	background-image:url("img/calculator-bg.jpg");
 	background-size:cover;
 }
 
